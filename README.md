@@ -1,5 +1,9 @@
-# UE4InputBuffer
-Input Buffering plug-in for Unreal Engine 4
+# Input Buffering plug-in for Unreal Engine 4
+##Features
+* A new player controller class with an input buffer that allows developers to set up input events and store them in the buffer for future examination.
+* A new asset type of Input Command that consists of sequences of input events and can represent typical input commands such as Quarter-Circle-Forward Punch commonly found in fighting games
+* Ability to tell whether given Input Commands match the contents of input buffer.
+
 ##Documentation
 To get a quick start, please follow [this link](https://ue4inputbuffer.wordpress.com/).
 
