@@ -1,0 +1,30 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Input Buffer",
+	"Description" : "Input Buffering and Command Recognition",
+	"Category" : "Input System",
+	"CreatedBy" : "Isaac Hsu",
+	"CreatedByURL" : "",
+	"DocsURL" : "https://ue4inputbuffer.wordpress.com/",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"CanContainContent" : true,
+	"IsBetaVersion" : true,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "InputBuffer",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		},
+		{
+			"Name" : "InputBufferEditor",
+			"Type" : "Editor",
+			"LoadingPhase" : "PostEngineInit"
+		}
+	]
+}
